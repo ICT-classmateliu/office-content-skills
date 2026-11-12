@@ -43,9 +43,7 @@ git clone https://github.com/XY-678/office-content-skills.git
 └── .agents/
     └── skills/
         └── meeting-minutes/
-            ├── SKILL.md
-            └── agents/
-                └── openai.yaml
+            └── SKILL.md
 ```
 
 Windows 用户目录示例为 `%USERPROFILE%\.agents\skills\`；macOS / Linux 为 `~/.agents/skills/`。若同名目录已存在，先查看内容并备份，再决定替换。不要把整个仓库当成一个技能复制进去。
@@ -96,10 +94,7 @@ office-content-skills/
     └── source-brief/
 ```
 
-每个技能目录均包含：
-
-- `SKILL.md`：独立技能定义，含名称、触发描述、输入处理方式和交付要求。
-- `agents/openai.yaml`：中文显示名称、简介和默认调用提示，供支持该配置的环境使用。
+每个技能目录均包含一个独立的 `SKILL.md`，其中定义技能名称、触发描述、输入处理方式和交付要求。
 
 所有核心工作说明都在对应的 `SKILL.md` 中。仓库示例用于演示和维护，不是运行依赖。
 

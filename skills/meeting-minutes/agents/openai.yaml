@@ -1,4 +1,0 @@
-interface:
-  display_name: "会议纪要与行动项"
-  short_description: "从会议笔记提取明确决策、负责人和截止时间，保留未决事项与分歧"
-  default_prompt: "使用 $meeting-minutes 将以下会议记录整理成纪要，区分决策、建议和行动项。"

@@ -1,4 +1,0 @@
-interface:
-  display_name: "资料摘要与对比"
-  short_description: "汇总指定资料的核心结论、差异与证据位置，明确来源缺口和不确定性"
-  default_prompt: "使用 $source-brief 汇总以下资料的核心结论、差异和待确认问题，并保留来源定位。"
