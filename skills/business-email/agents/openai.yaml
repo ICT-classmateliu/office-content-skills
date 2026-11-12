@@ -1,0 +1,4 @@
+interface:
+  display_name: "商务邮件草稿"
+  short_description: "起草进度同步、催办与合作邮件，明确诉求并保持事实和承诺边界"
+  default_prompt: "使用 $business-email 根据以下背景起草一封礼貌、简洁的商务邮件，给出主题和正文。"

@@ -1,0 +1,4 @@
+interface:
+  display_name: "文章选题与大纲"
+  short_description: "把写作主题拆成读者问题、中心观点与分节大纲，并标明证据缺口"
+  default_prompt: "使用 $article-outline 为以下主题设计面向目标读者的文章大纲，并列出需要补充的材料。"
